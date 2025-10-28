@@ -1,0 +1,20 @@
+
+.home{
+    background-color: purple;
+    text-align: center;
+    font-family: creepster;
+    font-size: 50px;
+    color: black;
+    margin-top: 10%;
+}
+.choose button{
+    background-color: rgb(6, 6, 6);
+    font-size:30px;
+    padding: 2%;
+    font-family: Eater;
+    text-decoration: none;
+}
+.choose button a{
+    text-decoration: none;
+  color: orange;
+}
