@@ -19,11 +19,8 @@ html {
     background: #ff785a;
 }
 
-.spider .spiderweb {
-    background: #fff;
-    width: 2px;
-    height: 200px;
-    margin-left: 49px;
+html:hover .spider {
+    top: -120%;
 }
 
 .spider {
@@ -33,6 +30,14 @@ html {
     left: 30%;
     animation: swing 2s infinite;
     transform-origin: top;
+    transition: 1s ease-in-out;
+}
+
+.spider .spiderweb {
+    background: #fff;
+    width: 2px;
+    height: 200px;
+    margin-left: 49px;
 }
 
 .spider .body {
@@ -70,6 +75,7 @@ html {
     border-radius: 50%;
     animation: look 8s infinite;
 }
+
 .spider .legs .leg {
     width: 80px;
     height: 40px;
@@ -77,6 +83,12 @@ html {
     border: 5px solid transparent;
     border-top-color: #000;
     border-radius: 40px 40px 0 0;
+}
+
+.spider .legs {
+    position: absolute;
+    bottom: -10%;
+    z-index: -1;
 }
 
 .spider .legs.left{
